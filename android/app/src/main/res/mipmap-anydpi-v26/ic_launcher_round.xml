@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Adaptive icon. The launcher masks these two layers to whatever shape the
+     device uses, so the mark is kept well inside the 66dp safe zone rather than
+     baked into a rounded square that would be masked twice. -->
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@color/ic_launcher_background"/>
+    <foreground android:drawable="@mipmap/ic_launcher_foreground"/>
+    <!-- Android 13+ themed icons: the system tints this to the wallpaper
+         palette, which only works if the layer is a plain silhouette. -->
+    <monochrome android:drawable="@mipmap/ic_launcher_foreground"/>
+</adaptive-icon>
