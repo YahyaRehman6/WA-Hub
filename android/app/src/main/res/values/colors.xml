@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Profile Shell artboard root background. -->
+    <color name="launch_ink">#0A0B0C</color>
+    <!-- The logo's own green square, used as the adaptive icon background. -->
+    <color name="ic_launcher_background">#17C84A</color>
+</resources>
